@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <AlgoliaSearch/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import AlgoliaSearch from './components/AlgoliaSearch.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    AlgoliaSearch
   }
 }
 </script>
